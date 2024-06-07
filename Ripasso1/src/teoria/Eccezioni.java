@@ -1,8 +1,13 @@
 package teoria;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class Eccezioni {
 
-
+	//https://stackoverflow.com/questions/5950557/good-examples-using-java-util-logging
+	private static final Logger LOGGER = Logger.getLogger( Eccezioni.class.getName() );
+	
 	public static void main(String[] args) {
 		try {// prova
 
@@ -22,10 +27,12 @@ public class Eccezioni {
 			}
 
 		} catch (NullPointerException e) { // se errore
-			System.err.println("Null pointer");
-			e.printStackTrace();//stampa storico dell'errore
+//			System.err.println("Null pointer");
+//			e.printStackTrace();//stampa storico dell'errore
+			LOGGER.log( Level.SEVERE, e.toString(), e );
 		} catch (Exception e) { // se errore
 			System.err.println("Generica");
+			LOGGER.log( Level.SEVERE, e.toString(), e );
 		}
 
 	}
