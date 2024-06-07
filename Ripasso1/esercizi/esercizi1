@@ -1,0 +1,38 @@
+1. Scrivere un programma NomeCognome che stampa il nome e il cognome uno sotto l'altro.
+
+2. Scrivere un programma RadiceQuadrata dichiarato un numero intero  ne stampa la radice quadrata (numero frazionario). 
+Utilizzare la classe java.lang.Math.
+
+3. Scrivere un programma Divisione che dichiarati e inizializzati due numeri interi  stampa prima il quoziente della loro divisione intera e poi il resto
+
+4. Scrivere un programma SommaProdotto che inizializzati due valori interi e ne calcola la somma e il prodotto.
+
+5. Scrivere un programma con un metodo(main) che stampa il mio nome e cognome, e l'età su una riga;
+
+6. Scrivere un programma PariDispari che dichiarato un muero intero stampi a video se è pari o dispari
+
+7. Scrivere un programma che dichiarato un numero tra zero e 100 stampi se è minore di 30, compreso tra 31 e 70 
+o compreso tra 71 e 100
+
+8. Esercizio dieci numeri interi
+Scrivere un programma che stampi a video i primi dieci numeri interi
+
+9. Scrivere un programma che stampi a video i primi dieci interi pari compresi fra 20 e 0, partendo da 20
+
+10.Scrivere un programma che stampi la tabellina del numero 
+
+11. Stampare a video la seguente figura:
+#
+##
+###
+####
+#####
+######
+
+12. Stampare a video la seguente figura:
+******
+*****
+****
+***
+**
+*

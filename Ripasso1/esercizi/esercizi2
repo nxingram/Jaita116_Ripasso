@@ -1,0 +1,58 @@
+8. Esercizio dieci numeri interi
+Scrivere un programma che stampi a video i primi dieci numeri interi
+
+9. Scrivere un programma che stampi a video i primi dieci interi pari compresi fra 20 e 0, partendo da 20
+
+10.Scrivere un programma che stampi la tabellina del numero inserito dall'utente usando la classe Scanner
+(vedi esempio InputProva)
+
+11. Scrivi un programma Java per stampare gli elementi di un array presenti in posizione pari
+
+12. Scrivi un programma Java per copiare tutti gli elementi di un array in un altro array in ordine inverso
+e poi stamparli a console
+
+13. Stampare a video la seguente figura:
+#
+##
+###
+####
+#####
+######
+
+14. Stampare a video la seguente figura:
+******
+*****
+****
+***
+**
+*
+
+15. Esercizio PositivoNegativo
+Scrivere un programma PositivoNegativo che chiede all’utente di inserire una sequenza di interi terminata quando l’utente immette il valore 0 
+e poi stampa "OK" se la sequenza contiene un valore positivo seguito da uno negativo, altrimenti stampa il messaggio "NO". 
+A vostra scelta, la stampa del messaggio "OK" può interrompere o meno l’inserimento dei valori.
+
+16. Ripeti
+Scrivere un programma Ripeti che chiede all’utente di inserire una stringa e un numero intero positivo.
+Entrambe gli elementi dovranno essere passati a un metodo ausiliario che stamperà tante copie della stringa quante indicate nel numero inserito dall’utente.
+Se il numero inserito dall'utente è negativo il metodo ausiliario stamperà "ERRORE: numero negativo".
+Il nome del metodo ausiliario può essere scelto a piacere.
+
+17. Concatena
+Scrivere un programma Concatena che chiede all'utente di inserire tre singole parole e le ristampa interponendovi un asterisco.
+Per esempio, se l'utente inserisce "gatto", "cane" e "topo" il programma stamperà gatto*cane*topo.
+Per concatenare le tre parole si utilizzi un metodo ausiliario che prende due stringhe e restituisce la stringa ottenuta concatenando la prima parola ricevuta, un asterisco e la seconda parola ricevuta.
+
+18. Swap
+Scrivere un programma che chiede all'utente di inserire 2 valori che vengono salvate in 2 variabli o 1 array
+poi scambia il contenuto delle due variabili, usando un metodo ausiliario swap(a,b)
+
+19. Max di interi
+Scrivere un programma che chiede all'utente di inserire 2 numeri interi  e
+trova il valore max tra i numeri usando un metodo ausiliario max(x, y)
+
+20. Scrivere un programma con un metodo ausiliario che chiede all'utente quanti voti vuole inserire, 
+e poi salvare questi voti in un array e stamparli a console con un secondo metodo ausiliario
+suggerimento: usare i cicli sia per input che per output
+
+
