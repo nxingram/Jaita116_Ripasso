@@ -1,0 +1,32 @@
+1.Centro di formazione
+La direttrice di un centro di formazione ha bisogno di un programma per formare le classi per il nuovo anno formativo:
+
+	-Stampare o visualizzare il numero di classi che si possono ottenere con un gruppo di studenti 
+	di cui si conosce l'anno di nascita.
+	-Le classi devono essere omogenee per età e possono contenere max 16 studenti.
+
+    
+2.Temperature massime e minime
+
+Per N città vengono registrate le temperature massime e minime di una giornata. Stampare una tabella con:
+
+    -nome della città,
+    -temperatura massima,
+    -temperatura minima
+    -ed alla fine stampare il nome della città più calda e di quella più fredda.
+    
+    
+    
+3. Biblioteca (Ereditarietà)
+
+Una biblioteca ha la necessità di tenere traccia dei prestiti dei libri e dei DVD in catalogo.
+
+Ad ogni libro o DVD sarà quindi associata una sequenza di prestiti, ad ognuno dei quali corrispondono la data di inizio prestito, la data di riconsegna, il nome e cognome dell'utente.
+
+Inoltre, per i DVD occorrerà tenere traccia della durata, mentre per i libri occorrerà tenere traccia del numero di pagine.
+
+Ad entrambi i tipi di supporti, infine, bisogna associare il titolo e l'anno di pubblicazione (Ereditare Prestito).
+
+Il bibliotecario potrebbe essere interessato a calcolare il periodo più lungo (in giorni) in cui un libro o un DVD è rimasto a prestito ad una persona.
+
+Occorre, infinte, permettere al bibliotecario di controllare se nella lista di prestiti relativi ad un libro ad un DVD esistano inconsistenze, ovvero se un prestito nella lista sia iniziato prima che un altro prestito fosse concluso.
