@@ -1,0 +1,39 @@
+Esercizio Distributore
+
+scrivere un programma per la gestione di un Distributore di benzina
+che deve rifornire i veicoli a motore 
+e offrire dei servizi ai veicoli non a motore come per esempio gonfiare i pneumatici alle bici
+
+-creare una classe astratta veicolo con attributi e metodi comuni ai veicoli
+-creare classi auto, camion e motocicletta che estendono veicolo
+-creare classe bicicletta che estende veicolo
+-auto moto e camion devono implementare un'interfaccia "Motorizzata" con un metodo che
+permette all'autoveicolo di fare "rifornimento"
+questi ultimi devono avere una capienza del serbatioio e un metodo toString() per la stampa dei dati
+-la bicicletta deve implementare un'interfaccia "Manutenzione" che permette alla bici di "gonfia"re gli pneumatici
+-anche gli altri veicoli possono implementare l'interfaccia manutenzione
+
+utilizzare il design pattern MVC per permettere all'utilizzatore del software di aggiungere dei veicoli
+e di scegliere di fare rifornimento o manutenzione a seconda del tipo di veicolo
+
+
+Specifiche:
+vorrei vedere una separazione tra 
+l'interfaccia a console (view) che permette di inserire i veicoli tramite un menù a scelta
+e il controller che continene la lista dei veicoli e i metodi per gestire le varie operazioni indicate nel menù
+
+
+menu:
+1. aggiungi veicolo
+	a. motorizzato
+		a1.auto
+		a2.camion
+		a3.moto
+	b. non motorizzato
+		b1.bici
+2. stampa veicoli
+3. scegli veicolo per eseguire operazione (a seconda del tipo di veicolo)
+		a. se bici - gonfia  - e stampa "ho gonfiato la bici..."
+		b. se auto/moto/camion rifornimento "ho fatto rifornimento  ..."
+
+	
