@@ -25,6 +25,10 @@ public class ProvaEnum {
 		}
 		
 		System.out.println(carburante.name());
+		
+		
+
+		
 	}
 	
 }
